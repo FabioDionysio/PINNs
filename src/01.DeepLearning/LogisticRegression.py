@@ -1,6 +1,4 @@
-# %%
 # Imports
-
 from sklearn.model_selection import train_test_split  # type: ignore
 from sklearn import linear_model  # type: ignore
 import numpy as np
@@ -8,7 +6,6 @@ import matplotlib.pyplot as plt
 import warnings
 warnings.filterwarnings('ignore')
 
-# %%
 # Load data
 x_l = np.load('input/X.npy')
 y_l = np.load('input/Y.npy')
@@ -20,7 +17,6 @@ plt.subplot(122)
 plt.imshow(x_l[900].reshape(64, 64))
 plt.axis('off')
 
-# %%
 # Concatenando apenas os 0 e 1 on um array
 X = np.concatenate((x_l[204:409], x_l[822:1027]), axis=0)
 Y = np.concatenate((np.zeros(205), np.ones(205)),
@@ -28,7 +24,6 @@ Y = np.concatenate((np.zeros(205), np.ones(205)),
 print('X shape:', X.shape)
 print('Y shape:', Y.shape)
 
-# %%
 # Split data
 X_train, X_test, y_train, y_test = train_test_split(
     X, Y, test_size=0.15, random_state=42)
@@ -38,7 +33,7 @@ X_train_flatten = X_train.reshape(
 X_test_flatten = X_test.reshape(
     X_test.shape[0], X_test.shape[1]*X_test.shape[2])
 
-# %%
+
 # Transpose data
 x_train = X_train_flatten.T
 x_test = X_test_flatten.T
@@ -47,7 +42,6 @@ y_test = y_test.T
 print('X train shape:', X_train.shape, 'X test shape:', X_test.shape,
       'y train shape:', y_train.shape, 'y test shape:', y_test.shape)
 
-# %%
 # Initializing Parameters
 
 
@@ -141,12 +135,10 @@ def logistic_regression(x_train, y_train, x_test, y_test, learning_rate, number_
         100 - np.mean(np.abs(y_prediction_test - y_test)) * 100))
 
 
-# %%
 logistic_regression(x_train, y_train, x_test, y_test,
                     learning_rate=0.01, number_of_iterarion=150)
 
 
-# %%
 # Sklearn
 logreg = linear_model.LogisticRegression(random_state=42, max_iter=150)
 print("train accuracy: {} ".format(logreg.fit(
