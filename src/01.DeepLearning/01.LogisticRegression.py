@@ -1,3 +1,4 @@
+# %%
 # Imports
 from sklearn.model_selection import train_test_split  # type: ignore
 from sklearn import linear_model  # type: ignore

@@ -43,10 +43,8 @@ y_test = y_test.T
 print('X_Train:', X_train.shape, 'X_Test:', X_test.shape,
       'y_train:', y_train.shape, 'y_shape:', y_test.shape)
 
-# %%
+
 # Initializing Parameters
-
-
 def initialize_parameters_and_layer_sizes_NN(x_train, y_train):
     parameters = {'weight1': np.random.randn(3, x_train.shape[0]) * 0.1,
                   'bias1': np.zeros((3, 1)),
@@ -134,6 +132,5 @@ def two_layer_neural_network(x_train, y_train, x_test, y_test, num_iterations):
     return parameters
 
 
-# %%
 ann = two_layer_neural_network(
     x_train, y_train, x_test, y_test, num_iterations=2500)
