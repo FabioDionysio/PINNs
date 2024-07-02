@@ -161,3 +161,6 @@ cython_debug/
 
 # Files
 src/01.DeepLearning/input/*
+
+# VisualStudioCode #
+.vscode
