@@ -55,7 +55,4 @@ Use a physics-informed neural network
   </table>
 </div>
 
-
-Original: <div>
-            <sub><a href="Ben Mosley">github.com/benmoseley</a></sub>
-          </div>
+Original: <div><sub><a href="Ben Mosley">github.com/benmoseley</a></sub></div>
