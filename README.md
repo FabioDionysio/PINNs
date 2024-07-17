@@ -13,8 +13,10 @@ Damped harmonic oscillator
 <img src="src/03.Harmonic-oscillator/oscillator.gif" width="850">
 
 Differential equation
-- <img src="https://latex.codecogs.com/gif.latex? \frac{d^2x}{dt^2} + \frac{b}{m}\frac{dx}{dt} + \frac{k}{m}x = 0" />
+
+![\Large frac{d^2x}{dt^2} + \frac{b}{m}\frac{dx}{dt} + \frac{k}{m}x = 0](https://latex.codecogs.com/svg.latex?\Large&space;frac{d^2x}{dt^2} + \frac{b}{m}\frac{dx}{dt} + \frac{k}{m}x = 0) 
 
 
 
-<img src="src/03.Harmonic-oscillator/pinn1D.gif" width="850">
+
+<img src="src/03.Harmonic-oscillator/figures/pinn1D.gif" width="850">
