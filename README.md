@@ -14,9 +14,7 @@ Damped harmonic oscillator
 
 Differential equation
 
-![\Large frac{d^2x}{dt^2} + \frac{b}{m}\frac{dx}{dt} + \frac{k}{m}x = 0](https://latex.codecogs.com/svg.latex?\Large&space;frac{d^2x}{dt^2} + \frac{b}{m}\frac{dx}{dt} + \frac{k}{m}x = 0) 
-
-
+![\Large \frac{d^2x}{dt^2}+\frac{b}{m}\frac{dx}{dt}+\frac{k}{m}x=0](https://latex.codecogs.com/svg.latex?\Large&space;\frac{d^2x}{dt^2}+\frac{b}{m}\frac{dx}{dt}+\frac{k}{m}x=0) 
 
 
 <img src="src/03.Harmonic-oscillator/figures/pinn1D.gif" width="850">
