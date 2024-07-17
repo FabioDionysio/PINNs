@@ -16,19 +16,38 @@ Damped harmonic oscillator
 
 Differential equation
 
-![\Large \frac{d^2x}{dt^2}+\frac{b}{m}\frac{dx}{dt}+\frac{k}{m}x=0](https://latex.codecogs.com/svg.latex?\Large&space;\dpi{150}\bg{white}\frac{d^2x}{dt^2}+\frac{b}{m}\frac{dx}{dt}+\frac{k}{m}x=0) 
-
-Use a neural network
 <div align="center">
-  <img src="src/03.Harmonic-oscillator/figures/nn1D.gif" width="550">
-  <img src="src/03.Harmonic-oscillator/figures/NeuralNetword.png" width="250">
+  <img src="https://latex.codecogs.com/svg.latex?\Large&space;\dpi{150}\bg{white}\frac{d^2x}{dt^2}+\frac{b}{m}\frac{dx}{dt}+\frac{k}{m}x=0" alt="\Large \frac{d^2x}{dt^2}+\frac{b}{m}\frac{dx}{dt}+\frac{k}{m}x=0">
 </div>
 
+Use a neural network
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" valign="middle">
+        <img src="src/03.Harmonic-oscillator/figures/NeuralNetword.png" width="350">
+      </td>
+      <td align="center" valign="middle">
+        <img src="src/03.Harmonic-oscillator/figures/nn1D.gif" width="550">
+      </td>
+    </tr>
+  </table>
+</div>
 
 Use a physics-informed neural network
+
 <div align="center">
-<img src="src/03.Harmonic-oscillator/figures/pinn1D.gif" width="850">
-<img src="src/03.Harmonic-oscillator/figures/Physics-informedNeuralNetword.png" width="250">
+  <table>
+    <tr>
+      <td align="center" valign="middle">
+        <img src="src/03.Harmonic-oscillator/figures/Physics-informedNeuralNetword.png" width="350">
+      </td>
+      <td align="center" valign="middle">
+        <img src="src/03.Harmonic-oscillator/figures/pinn1D.gif" width="550">
+      </td>
+    </tr>
+  </table>
 </div>
 
 
