@@ -13,13 +13,16 @@ python -m pip install -r requirements.txt
 Damped harmonic oscillator
 
 <div align="center">
-<img src="src/03.Harmonic-oscillator/figures/oscillator.gif" width="350">
-</div>
-
-Differential equation
-
-<div align="center">
-  <img src="https://latex.codecogs.com/svg.latex?\Large&space;\dpi{150}\bg{white}\frac{d^2x}{dt^2}+\frac{b}{m}\frac{dx}{dt}+\frac{k}{m}x=0" alt="\Large \frac{d^2x}{dt^2}+\frac{b}{m}\frac{dx}{dt}+\frac{k}{m}x=0">
+  <table>
+    <tr>
+      <td align="center" valign="middle">
+        <img src="src/03.Harmonic-oscillator/figures/oscillator.gif" width="350">
+      </td>
+      <td align="center" valign="middle">
+          <img src="https://latex.codecogs.com/svg.latex?\Large&space;\dpi{150}\bg{white}\frac{d^2x}{dt^2}+\frac{b}{m}\frac{dx}{dt}+\frac{k}{m}x=0" alt="\Large \frac{d^2x}{dt^2}+\frac{b}{m}\frac{dx}{dt}+\frac{k}{m}x=0">
+      </td>
+    </tr>
+  </table>
 </div>
 
 Use a neural network
