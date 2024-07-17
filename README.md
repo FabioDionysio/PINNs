@@ -12,7 +12,9 @@ python -m pip install -r requirements.txt
 
 Damped harmonic oscillator
 
+<div align="center">
 <img src="src/03.Harmonic-oscillator/figures/oscillator.gif" width="350">
+</div>
 
 Differential equation
 
@@ -51,4 +53,5 @@ Use a physics-informed neural network
 </div>
 
 
-
+Original:
+[Ben Mosley, So, what is a physics-informed neural network?](https://github.com/benmoseley)
