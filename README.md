@@ -55,6 +55,5 @@ Use a physics-informed neural network
 
 Original:
 <div>
-  <small><a href="https://github.com/benmoseley">github.com/benmoseley</a></small>
+  <small><a href="Ben Mosley">github.com/benmoseley</a></small>
 </div>
-[Ben Mosley, So, what is a physics-informed neural network?](https://github.com/benmoseley)
