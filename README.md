@@ -55,6 +55,6 @@ python -m pip install -r requirements.txt
   </table>
 </div>
 
-```
+<div align="left">
 Original:[Ben Moseley](https://github.com/benmoseley)
-```
+</div>
