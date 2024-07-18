@@ -10,7 +10,7 @@ python -m pip install -r requirements.txt
 
 ## Harmonic Oscillator - 1 Dimension
 
-Damped harmonic oscillator
+#### Damped harmonic oscillator
 
 <div align="center">
   <table>
@@ -25,7 +25,7 @@ Damped harmonic oscillator
   </table>
 </div>
 
-Use a neural network
+#### Use a neural network
 
 <div align="center">
   <table>
@@ -40,7 +40,7 @@ Use a neural network
   </table>
 </div>
 
-Use a physics-informed neural network
+#### Use a physics-informed neural network
 
 <div align="center">
   <table>
@@ -55,5 +55,6 @@ Use a physics-informed neural network
   </table>
 </div>
 
-
+```
 Original:[Ben Moseley](https://github.com/benmoseley)
+```
