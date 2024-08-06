@@ -190,8 +190,8 @@ def plot_result2d(t, x1, x2, t_data, x1_data, x2_data, x1_pred, x2_pred, xp=None
 
     l = plt.legend(loc=(1.01, 0.22), frameon=False, fontsize="large")
     plt.setp(l.get_texts(), color="k", fontsize="medium")
-    plt.xlim(-0.05, 1.05)
+    plt.xlim(-0.05, 0.55)
     plt.ylim(-1.5, 1.5)
     plt.text(
-        1.065, 1.15, f'Training step: {step}', fontsize='xx-large', color='k')
+        0.565, 1.05, f'Training step: {step}', fontsize='xx-large', color='k')
     plt.axis('off')
