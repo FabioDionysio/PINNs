@@ -55,4 +55,4 @@ python -m pip install -r requirements.txt
   </table>
 </div>
 
-Original:[Ben Moseley](https://github.com/benmoseley)
+<font size="1"> © <a href="https://github.com/benmoseley">Ben Moseley</a> </font>
