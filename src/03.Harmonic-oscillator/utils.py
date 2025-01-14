@@ -135,21 +135,21 @@ def plot_result(x, y, x_data, y_data, yh, xp=None, step=None):
         xp (torch.tensor, optional): optional tensor for physics loss training locations. Defaults to None.
     """
     plt.figure(figsize=(8, 4))
-    plt.plot(x, y, label='Analytical solution',
+    plt.plot(x, y, label='Solução Analítica',
              linestyle='--', color='tab:grey', alpha=0.8)
-    plt.plot(x, yh, label='Neural network prediction',
+    plt.plot(x, yh, label='Predição Rede Neural',
              linewidth=4, color='tab:blue', alpha=0.8)
-    plt.scatter(x_data, y_data, label='Training data',
+    plt.scatter(x_data, y_data, label='Dados de Treinamento',
                 s=60, alpha=0.4, color='tab:red')
     if xp is not None:
         plt.scatter(xp, -0*torch.ones_like(xp),
-                    label='Physics loss training locations', s=60, alpha=0.4, color="tab:green")
+                    label='Locais de treinamento da função de perda física', s=60, alpha=0.4, color="tab:green")
     l = plt.legend(loc=(1.01, 0.34), frameon=False, fontsize="large")
     plt.setp(l.get_texts(), color="k")
     plt.xlim(-0.05, 1.05)
     plt.ylim(-1.5, 1.5)
     plt.text(
-        1.065, 0.7, f'Training step: {step}', fontsize='xx-large', color='k')
+        1.065, 0.7, f'Treinamento: {step}', fontsize='xx-large', color='k')
     plt.axis('off')
 
 
