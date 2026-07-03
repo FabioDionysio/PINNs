@@ -2,9 +2,12 @@
 # PINNs: Physics-Informed Neural Networks
 > **Repositório tese de MBA em Ciência de Dados** desenvolvido por [Fábio Dionysio](https://github.com/FabioDionysio).
 
+
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Status](https://img.shields.io/badge/Status-Concluído-success.svg)]()
 [![MBA Thesis](https://img.shields.io/badge/MBA-Data_Science-purple.svg)](https://drive.google.com/file/d/1bmIWTTRsek42Fwe2CoJ6CG8YaWhuNwvm/view)
+
+📖 **[Tese Completa (PDF)](https://drive.google.com/file/d/1bmIWTTRsek42Fwe2CoJ6CG8YaWhuNwvm/view)**
 
 ---
 
@@ -24,8 +27,6 @@ As **Physics-Informed Neural Networks (PINNs)** foram adotadas neste cenário co
 
 
 ## 🏗️ Metodologia e Arquitetura
-
-O pipeline de Machine Learning foi projetado seguindo boas práticas de MLOps, garantindo a separação clara entre a preparação de dados, o treinamento e a inferência.
 
 ### Tratamento de Dados
 Os dados de fronteira (Boundary Conditions) e iniciais (Initial Conditions) foram processados e normalizados em tensores. O espaço de amostragem foi gerado via *Latin Hypercube Sampling* (LHS) para garantir uma distribuição uniforme dos pontos de colocação (collocation points) onde a física será avaliada.
@@ -51,11 +52,11 @@ Para demonstrar a eficácia da arquitetura, modelamos um **Oscilador Harmônico 
   <table>
     <tr>
       <td align="center" valign="middle">
-        <b>Fenômeno Físico</b><br>
+        <b>Oscilador Harmônico</b><br>
         <img src="src/03.Harmonic-oscillator/figures/oscillator.gif" width="300" alt="Animação do Oscilador Harmônico">
       </td>
       <td align="center" valign="middle">
-        <b>Equação Governante (ODE)</b><br>
+        <b>Equação Diferencial</b><br>
         <img src="https://latex.codecogs.com/svg.latex?\Large&space;\dpi{150}\bg{white}\frac{d^2x}{dt^2}+\frac{b}{m}\frac{dx}{dt}+\frac{k}{m}x=0" alt="Equação do Oscilador Harmônico">
       </td>
     </tr>
@@ -69,7 +70,7 @@ Treinamos uma rede neural padrão apenas com dados empíricos (pontos vermelhos 
   <table>
     <tr>
       <td align="center" valign="middle">
-        <b>Arquitetura Padrão</b><br>
+        <b>Rede Neural Padrão</b><br>
         <img src="src/03.Harmonic-oscillator/figures/NeuralNetword.png" width="350" alt="Arquitetura ANN">
       </td>
       <td align="center" valign="middle">
@@ -87,7 +88,7 @@ Em seguida, embutimos o resíduo da ODE na função de perda (Loss) da rede. O r
   <table>
     <tr>
       <td align="center" valign="middle">
-        <b>Arquitetura PINN (Loss Composta)</b><br>
+        <b>Physics-Informed Neural Networks (Loss Composta)</b><br>
         <img src="src/03.Harmonic-oscillator/figures/Physics-informedNeuralNetword.png" width="350" alt="Arquitetura PINN">
       </td>
       <td align="center" valign="middle">
